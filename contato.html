@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/Green.png">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="stylesheet" href="./styles/headerc.css">
+    <link rel="stylesheet" href="./styles/contato.css">
+
+    <title>GreenImpact</title>
+</head>
+<body>
+  <div id="background">
+    <video loop autoplay muted id="background-video">
+      <source src="./assets/backgroundvideo.mp4#t=13" type="video/mp4">
+    </video>
+  </div>
+  <div id="app">
+    <header>
+      <ul class="navigation">
+        <li>
+          <a href="./index.html" class="navigation_link">Ínicio</a>
+        </li>
+        <li>
+          <a href="./campanhas.html" class="navigation_link">Campanhas</a>
+        </li>
+        <li>
+          <a href="/contato.html" class="navigation_link">Contato</a>
+        </li>
+        <li>
+          <a href="doacao.html" class="navigation_link">Doações</a>
+        </li>
+      </ul>
+      </div>
+      <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+        </form>
+    </section>
+  
+    <main>
+        
+    </main>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Green Impact</h1>
+                <p>É tudo sobre seus sonhos</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tech</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Adventures</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Music</a>
+                </li>
+              </ul>
+
+              <ul class="footer-list">
+                  <li>
+                      <h3>Produtos</h3>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">App</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Desktop</a>
+                  </li>
+                  <li>
+                      <a href="#" class="footer-link">Cloud</a>
+                  </li>
+              </ul>
+  
+              <div id="footer_subscribe">
+                  <h3>Se inscrever</h3>
+  
+                  <p>
+                    Digite seu e-mail para ser notificado sobre nossas soluções de notícias
+                  </p>
+  
+                  <div id="input_group">
+                      <input type="email" id="email">
+                      <button>
+                          <i class="fa-regular fa-envelope"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+  
+          <div id="footer_copyright">
+              &#169
+              2024 all rights reserved
+          </div>
+      </footer>
+  </body>
+  
+  </html>
